@@ -1,0 +1,87 @@
+
+/* reset browser */
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+a,a:hover{
+    transition: all linear .3s;
+    text-decoration: none;
+}
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+    padding: 0;
+}
+ul,ol,li{
+    list-style-type: none;
+}
+/* font size */
+p{
+    font-size: 16px;
+    line-height: 26px;
+    color: #444444;
+}
+.secTitle{
+    font-size: 32px;
+    color: #222222;
+    font-family: 'Poppins', sans-serif;
+    text-transform: capitalize;
+}
+.contTitle{
+    font-size: 24px;
+    color: #222222;
+    text-transform: capitalize;
+}
+.subTitle{
+    font-size: 16px;
+    color: #007bff;
+    text-transform: capitalize;
+    letter-spacing: 3px;
+}
+/* button */
+.customBTN{
+    font-size: 20px;
+    text-transform: capitalize;
+    border: 1px solid #f1f1f1;
+    color: #f1f1f1;
+    border-radius: 3px;
+    background: none;
+    transition: all linear .3s;
+    padding: 5px 15px;
+    cursor: pointer;
+}
+
+.customBTN1{
+    font-size: 20px;
+    text-transform: capitalize;
+    border: 1px solid #444444;
+    color: #212121;
+    border-radius: 3px;
+    background: none;
+    transition: all linear .3s;
+    padding: 5px 15px;
+    cursor: pointer;
+}
+.customBTN:hover,.customBTN1:hover{
+    background: rgba(255, 24, 24, 0.9);
+    border: 1px solid #ff1818;
+    color: #f1f1f1;
+}
+/* marging and padding */
+.secPadding{
+    padding: 100px 0;
+}
+.secGap{
+    margin-top: 100px;
+}
+.innerSecGap{
+    margin-top: 60px;
+}
+.contGap{
+    margin-top: 30px;
+}
+.innerContGap{
+    margin-top: 15px;
+}
